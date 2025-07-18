@@ -22,51 +22,81 @@
     }
     .box:hover {background-color:#4059a4 ;}
     .box:active {
-    background-color: #4059a4;
-    box-shadow: 0 5px #666;
-    transform: translateY(1px);
-}
-    .main{
-        text-align: center;
-        padding: 10px;
-        margin: 10px;
-        font-family:cursive;
-    }
-    p{
-        color: black;
-        font-weight: bold;
+        background-color: #4059a4;
+        box-shadow: 0 5px #666;
+        transform: translateY(1px);
     }
     .new{
+        height: 80px;
+        width: 400px;
+        font-size: 50px;
         border: 0px;
         color: white;
         background-color: #284b63;
-        border-radius: 5px;
+        border-radius: 25px;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         box-shadow: 0 2px #999;
         cursor:grab;
     }
     .new:hover {background-color:#4059a4 ;}
     .new:active {
-    background-color: #4059a4;
-    box-shadow: 0 5px #666;
-    transform: translateY(2px);
+        background-color: #4059a4;
+        box-shadow: 0 5px #666;
+        transform: translateY(2px);
     }
     .reset{
+        height: 40px;
+        width: 200px;
+        font-size: 20px;
         border: 0px;
         color: white;
         background-color: #284b63;
         margin: 10px;
-        border-radius: 5px;
+        border-radius: 15px;
         font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         box-shadow: 0 2px #999;
         cursor:grab;
     }
     .reset:hover {background-color:#4059a4 ;}
     .reset:active {
-    background-color: #4059a4;
-    box-shadow: 0 5px #666;
-    transform: translateY(2px);
+        background-color: #4059a4;
+        box-shadow: 0 5px #666;
+        transform: translateY(2px);
+    }
+    .afterwinning {
+        height: 150vmin;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .main{
+        text-align: center;
+        padding: 10px;
+        margin: 10px;
+        font-family:cursive;
+    }
+    .turn{
+        font-size: 20px;
+        color: white;
+        border-radius: 10px;
+        border: 2px solid #657990;
+        height: 50px;
+        width: 150px;
+        margin: 5px;
+        background-color: #657990;
+        font-weight: bold;
+        box-shadow: 0 2px #999;
+        cursor:grab;
+    }
+    p{
+        color: black;
+        font-size: 25px;
+        font-weight: bold;
     }
     body{
         background-color: #7c9885;
+    }
+    .hide{
+        display: none;
     }
