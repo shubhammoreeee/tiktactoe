@@ -27,12 +27,14 @@ button.forEach((btn) => {
         }
         turn = (turn === "X") ? 0 : 1;
         btn.disabled = true;
-        const winner = checkWinner();
-        if (winner) {
-            showWinner(winner);
-        } else if (counter === 9) {
-            draw();
-        }
+        setTimeout(() => {
+            const winner = checkWinner();
+            if (winner) {
+                showWinner(winner);
+            } else if (counter === 9) {
+                draw();
+            }
+        },100);
        // checkWinner();
     });                //},{ once : true });
 });
